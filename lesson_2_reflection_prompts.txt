@@ -10,13 +10,28 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	С помощью комманды diff и  diff --staged. Первая сравнивает исходник со стеджед арием (который равен, по началу, с последним коммитом), вторая сравнивает стейджет арию с последним коммитом.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	Ветки позволяют эксперементировать с версиями программы и при этом сохранять их раздельность.
+
 How do the diagrams help you visualize the branch structure?
+
+	Ну видно жеж, где и как пошли ответвления в разработке.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	Результаты разработки по двум различным направлениям объединены в одном коде.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+	Прос:
+		1) чаще быстрее
+		2) проще
+		3) легче
+
+	Конс: их нет, ибо когда конфликт - врубается мануалка.
